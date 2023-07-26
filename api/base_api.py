@@ -1,6 +1,9 @@
 from abc import ABC, abstractmethod
 from typing import List
 
+from models.vacancy import Vacancy
+
+
 class BaseApi(ABC):
     """Абстрактный класс для работы с API сайтов с вакансиями.
 
