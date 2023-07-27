@@ -30,7 +30,7 @@ class Vacancy:
         """
         self.job_title = job_title
         self.url = url
-        self.salary = salary
+        self.salary = int(salary)
         self.experience = experience
 
     def __str__(self) -> str:
